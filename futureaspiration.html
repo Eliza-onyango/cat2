@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Future Aspirations</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: bisque;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1em;
+      }
+
+      main {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+      }
+
+      section {
+        margin-bottom: 20px;
+      }
+
+      h2 {
+        color: #333;
+      }
+
+      p {
+        color: #555;
+      }
+
+      textarea {
+        width: 100%;
+        height: 150px;
+        margin-bottom: 10px;
+        padding: 10px;
+        box-sizing: border-box;
+      }
+
+      button {
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>My Future Aspirations</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Career Goals</h2>
+        <p>My career goals include:</p>
+        <ul>
+          <li>Securing a position in google or microsoft company</li>
+          <li>
+            Continuing professional development through learning and
+            certifications
+          </li>
+          <li>
+            Contributing to innovative projects and making a positive impact
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Aspirations</h2>
+        <p>I aspire to:</p>
+        <ul>
+          <li>Excel in my chosen field</li>
+          <li>Lead and inspire others</li>
+          <li>Contribute to community and social causes</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Dreams for the Future</h2>
+        <p>My dreams for the future include:</p>
+        <ul>
+          <li>Achieving a work-life balance that allows for personal growth</li>
+          <li>Exploring new opportunities and challenges</li>
+          <li>Making a meaningful difference in the lives of others</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Express Your Thoughts</h2>
+        <label for="aspirations"
+          >Share more about your future aspirations:</label
+        >
+        <textarea
+          id="aspirations"
+          placeholder="Write your thoughts here..."
+        ></textarea>
+        <button onclick="saveAspirations()">Save</button>
+      </section>
+    </main>
+
+    <script>
+      function saveAspirations() {
+        var aspirationsText = document.getElementById("aspirations").value;
+        // You can add code here to save the aspirationsText, such as sending it to a server or storing it locally.
+        alert("Aspirations saved!");
+      }
+    </script>
+  </body>
+</html>
